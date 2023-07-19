@@ -1,0 +1,114 @@
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #252525;
+    border-radius: 10px;
+    border: 4px solid #b119cf;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #b119cf;
+}
+
+.container input {
+    display: block;
+    margin: 14px auto;
+    width: 80px;
+    height: 40px;
+    padding: 6px;
+    border: none;
+    border-bottom: 2px solid #b119cf;
+    color: #fff;
+    background-color: transparent;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+    transition: 1s;
+    outline: none;
+}
+
+.container input:hover {
+    border: 2px solid #b119cf;
+}
+
+.container button {
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 6px;
+    background-color: #b119cf;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all .25s ease;
+}
+
+.container button:hover {
+    background-color: #d654f0;
+    -webkit-box-shadow: 0px 0px 17px 1px rgba(214,84,240,1);
+    -moz-box-shadow: 0px 0px 17px 1px rgba(214,84,240,1);
+    box-shadow: 0px 0px 17px 1px rgba(214,84,240,1);
+}
+
+.inputContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.result {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.classification {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 4px;
+}
+
+.tableHeader {
+    color: #d654f0;
+    font-weight: bold;
+    border-bottom: 1px solid #b119cf;
+}
+
+.differentRow {
+    background-color: #333333;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 6px;
+        width: 95%;
+        border: 2px solid #b119cf;
+    }
+    .container button {
+        margin-top: 20px;
+    }
+
+    .table {
+        width: 100%;
+        font-size: 14px;
+    }
+}
